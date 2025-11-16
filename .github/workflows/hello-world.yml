@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latets
+    runs-on: ubuntu-latest
     steps:
       - name: Display hello world message
         run: echo "hello world, felipe"
