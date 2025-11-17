@@ -15,13 +15,13 @@ jobs:
     steps:
       - name: Display hello world message
         run: echo "hello world, felipe"
-
+      
       - name: Another task
         run: echo "another task"
-
+      
       - name: Checkout
         uses: actions/checkout@v6-beta
-
+      
       - name: List the files of the repo
         run:
           echo "The repository ${{github.repository}} contains the following files:"
